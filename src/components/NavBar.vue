@@ -52,5 +52,7 @@ nav a {
 
 nav .router-link-exact-active {
   text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 2rem;
 }
 </style>

@@ -42,8 +42,8 @@ export default {};
   display: grid;
   grid-template-columns: 1.5fr 1fr;
   grid-template-rows: auto;
-  gap: 40%;
   grid-template-areas: "text btn";
+  gap: 40%;
 }
 
 .text {
@@ -64,6 +64,7 @@ export default {};
   font-size: 1.5rem;
   font-family: var(--ff-sans-cond);
   text-transform: uppercase;
+  letter-spacing: 3px;
   justify-self: start;
   padding-bottom: 1rem;
 }
