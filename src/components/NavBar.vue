@@ -5,7 +5,7 @@
       :key="index"
       :to="{ name }"
     >
-      {{ "0" + index }} {{ name }}
+      <b>{{ "0" + index }}</b> {{ name }}
     </router-link>
   </nav>
 </template>
@@ -38,7 +38,7 @@ nav {
   justify-content: center;
   align-items: center;
   column-gap: 3vw;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 }
 
 nav a {
@@ -48,6 +48,7 @@ nav a {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  word-spacing: .3rem;
 }
 
 nav .router-link-exact-active {
