@@ -1,7 +1,7 @@
 <template>
   <template v-if="actualCrewMate">
     <div class="crewMate-img">
-      <img :src="getImgUrl(actualCrewMate.name)" :alt="actualCrewMate.name" />
+      <img :src="getImgUrl(actualCrewMate.name)" :alt="actualCrewMate.name" draggable="false" />
     </div>
 
     <div class="info-crewMate">
@@ -61,6 +61,13 @@ export default {
 }
 .crewMate-img img {
   max-width: 70%;
+  transition: all .5s ease;
+  filter: drop-shadow(2px 4px 8px grey); 
+}
+
+.crewMate-img img:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(2px 4px 8px black);
 }
 
 .info-crewMate {

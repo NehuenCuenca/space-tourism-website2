@@ -1,7 +1,7 @@
 <template>
   <div id="crew-page-content">
     <div class="grid-crew">
-      <span class="title">02 Pick your crew</span>
+      <span class="title"> <span class="gray">02</span> Pick your crew</span>
       <SliderCrew />
     </div>
   </div>
@@ -48,5 +48,9 @@ span.title {
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 3px;
+}
+
+span.title .gray{
+  color: gray;
 }
 </style>

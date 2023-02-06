@@ -4,6 +4,7 @@
       <img
         :src="getImgUrl(actualDestination.name)"
         :alt="actualDestination.name"
+        draggable="false"
       />
     </div>
 

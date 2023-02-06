@@ -2,7 +2,8 @@
   <!-- <h1>DESTINATION PAGE</h1> -->
   <div id="destination-page-content">
     <div class="grid-destination">
-      <span class="title">01 Pick your destination</span>
+      <span class="title"><span class="gray">01</span> Pick your destination</span
+      >
       <SliderDestinations />
     </div>
   </div>
