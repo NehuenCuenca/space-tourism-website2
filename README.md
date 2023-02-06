@@ -1,5 +1,8 @@
 # space-tourism-website2
 
+Challenge de frontendMentor aplicando el vue-router.
+Link del challenge: https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3 
+
 ## Project setup
 ```
 npm install
